@@ -119,6 +119,7 @@ const Works = () => {
           <li><br></br></li>          
           <li>📜 Certificate of Achievement for Second Highest Score on the Euclid Math Contest at Castlebrooke SS</li>
           <li>♾️ Published Math Paper through the Oxford Math Essay Writing Contest</li>
+          <li>💻 Published a Computer Science Paper on the P Vs NP Problem in a STEM Journal known as The STEM Spectrum that has an audiance of over 15,000 individuals. (8% Selection Rate)</li>
           <li>🔬 Attended the Quantum School For Young Students, particpating in groundbreaking Research into Quantum Information Science</li>
           <li><br></br></li>
           <li>🎖️ Top 10 Overall Regionals Finalist in SEM (DECA Regionals 2022 )</li>
