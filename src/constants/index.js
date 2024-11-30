@@ -165,7 +165,7 @@ import {
       scale: 1.5, // Add scale property here
       date: "July 2024 - Present",
       points: [
-        "Led Career Chats' international expansion to over 1,000 members across 10+ countries by launching school-wide chapters and leveraging expert interviews.",
+        "Led Career Chats' international expansion to over 300+ members across 20+ countries by launching school-wide chapters and leveraging expert interviews.",
         "Implemented strategic marketing solutions to overcome early credibility challenges, boosting organization growth and visibility by 70%.",
         "Managed and mentored a team of executives, guiding them in developing new chapters and enhancing organizational reach.",
         "Colloborated with fellow board members to develop impactful initiatives such as industry expert interviews, providing valuable career insights to high school students and driving global membership growth.",
