@@ -171,6 +171,19 @@ import {
         "Colloborated with fellow board members to develop impactful initiatives such as industry expert interviews, providing valuable career insights to high school students and driving global membership growth.",
       ],
     },
+          {
+      title: "Head of Finance",
+      company_name: "JAMHacks",
+      icon: CareerChats,
+      iconBg: "white",
+      scale: 1.5, // Add scale property here
+      date: "July 2024 - Present",
+      points: [
+        "Directed a team of three officers to raise $5,000+ in sponsorships within two weeks, leveraging professionalcommunication and financial acumen to present value-driven proposals to potential partners",
+        "Designed and implemented a comprehensive event budget, effectively allocating resources across key areas and reducingunnecessary expenses by 20%, supported by detailed financial reports ensuring fiscal transparency.",
+        "Conducted data-driven analysis to inform cost allocations and troubleshoot event planning challenges, enhancing decision-making under tight deadlines.",
+      ],
+    },
     {
       title: "Director of Web Development",
       company_name: "Youth Surgeons Association",
