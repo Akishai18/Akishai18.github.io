@@ -8,6 +8,7 @@ import {
     css,
     reactjs,
     tailwind,
+    nextjs,
     nodejs,
     C,
     GoogleC,
@@ -18,6 +19,7 @@ import {
     git,
     Uoft,
     JEC,
+    Nvestiv,
     DECA,
     STEMF,
     CareerChats,
@@ -27,10 +29,16 @@ import {
     Home,
     Mind,
     Quiz,
+    mysql,
+    NorthPND,
     Pineapple,
     Heart,
     Career,
     Tetris,
+    Jamhacks,
+    FinTech,
+    MCYC,
+    Tutorly,
   } from "../assets";
   
   export const navLinks = [
@@ -45,6 +53,10 @@ import {
     {
       id: "education",
       title: "Education",
+    },
+    {
+      id: "extracurriculars",
+      title: "Extracurriculars",
     },
     {
       id: "Tech",
@@ -107,6 +119,16 @@ import {
       scale: 64,
     },
     {
+      name: "MySQL",
+      icon: mysql,
+      scale: 64,
+    },
+    {
+      name: "Next.JS",
+      icon: nextjs,
+      scale: 64,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
       scale: 64,
@@ -155,8 +177,48 @@ import {
     },
 
   ];
-  
   const experiences = [
+    {
+      title: "Software Engineering Intern",
+      company_name: "North P&D",
+      icon: NorthPND,
+      iconBg: "white",
+      scale: 1.4, // Add scale property here
+      date: "June 2025 - Present",
+      points: [
+        "Developed and optimized over 15 client website features by leveraging PHP, Vue.js, JavaScript, and MySQL, resulting in a 30\% increase in site performance metrics.",
+        "Identified and resolved more than 40 critical bugs across frontend and backend systems, enhancing site stability which led to a 25\% decrease in customer-reported issues.",
+        "Collaborated on database-driven functionalities that supported real-time data updates for multiple clients, increasing data retrieval efficiency by 20\% and ensuring scalable performance for high traffic volumes.",
+      ],
+    },
+          {
+      title: "Software Engineering Intern",
+      company_name: "Nvestiv",
+      icon: Nvestiv,
+      iconBg: "white",
+      scale: 1.35, // Add scale property here
+      date: "March 2025 - Present",
+      points: [
+        "Developed an investment app with a responsive frontend UI with features such as interactive search and filtering and real-time data tables for investor insights, using React, TypeScript, JavaScript, and Tailwind CSS.",
+        "Built an investor database tracking 200 investor profiles leveraging vector databases for semantic searching target efficiency by 30%.",
+        "Improved and fine-tuned AI-driven investment agents for the company’s investment dashboard using Elixir, refining algorithm performance by 25\% and integrated financial data APIs into the investment app for real time financial insights.",
+      ],
+    },
+    {
+      title: "Research Assistant",
+      company_name: "University of Toronto - Shoichet Lab",
+      icon: Uoft,
+      scale: 1.8,
+      iconBg: "white",
+      date: "Febuary 2024 - March 2024",
+      points: [
+        "Conducted research in Regenerative Medicine, Tissue Engineering, and Drug Delivery at the Shoichet Lab, supporting breakthrough developments in developing non-invasive drug delivery systems.",
+        "Engineered and optimized hydrogel-based drug delivery methods, performing controlled release studies and peptide synthesis to enhance therapeutic efficacy.",
+        "Applied statistical analyses, data modeling, and developed machine learning models to identify material properties, predict drug behavior, and drive data-driven research insights.",
+      ],
+    }
+  ];
+  const experiences2 = [
     {
       title: "Board Member",
       company_name: "Career Chats",
@@ -174,12 +236,12 @@ import {
           {
       title: "Head of Finance",
       company_name: "JAMHacks",
-      icon: CareerChats,
+      icon: Jamhacks,
       iconBg: "white",
       scale: 1.5, // Add scale property here
-      date: "July 2024 - Present",
+      date: "August 2024 - Present",
       points: [
-        "Directed a team of three officers to raise $5,000+ in sponsorships within two weeks, leveraging professionalcommunication and financial acumen to present value-driven proposals to potential partners",
+        "Directed a team of three officers to raise $6,000+ in sponsorships and develop strong corporate partnerships, leveraging professionalcommunication and financial acumen to present value-driven proposals to potential partners",
         "Designed and implemented a comprehensive event budget, effectively allocating resources across key areas and reducingunnecessary expenses by 20%, supported by detailed financial reports ensuring fiscal transparency.",
         "Conducted data-driven analysis to inform cost allocations and troubleshoot event planning challenges, enhancing decision-making under tight deadlines.",
       ],
@@ -206,10 +268,48 @@ import {
       iconBg: "white",
       date: "June 2024 - Present",
       points: [
-        "Created workshops and resources for 300+ students, which increased our chapter’s provincial qualifications by 40%.",
-        "Implemented one-on-one training sessions as Training Officer, leading to our chapter achieving the highest number of provincial qualifications in its history.",
-        "Organized and led a summer fundraiser by selling snacks, raising significant funds to support our DECA delegation for the upcoming year.",
+        "Directing a team of 12 executives to lead our delegation of over 300 students through various competitions and conferences. Lead my team in implementing workshops and training events which increased our chapter’s provincial qualifications by 40%.",
+        "Implemented innovative training stratigies by colloborating with Presidents from across the world leading to our chapter achieving record breaking 99 Provincial qualifications --the highest number of provincial qualifications in our history.",
         "Developed and executed targeted marketing strategies to recruit new DECA members, resulting in a 25% increase in membership and heightened chapter visibility.",
+      ],
+    },
+    {
+      title: "Director of Finance",
+      company_name: "FinTech Nexus",
+      icon: FinTech,
+      scale: 1.4,
+      iconBg: "white",
+      date: "June 2024 - Present",
+      points: [
+        "Led a team of 4 associates to secure partnerships with FinTech companies, successfully obtaining funding and industry support for a company-backed case competition",
+        "Developed and executed financial strategies to secure sponsorships, manage budgets, and ensure sustainable funding for FinTech Nexus initiatives.",
+        "Organized educational events and workshops, introducing students to key concepts in Financial Technology, including Quantitative Finance and career opportunities in the industry.",
+      ],
+    },
+    {
+      title: "Director of Marketing",
+      company_name: "Movement For Change Youth Council",
+      icon: MCYC,
+      scale: 1.4,
+      iconBg: "white",
+      date: "August 2024 - Present",
+      points: [
+        "Led marketing campaigns for the Ambassador Program, developing strategic campaign plans, content outlines, and performance reports to drive engagement and outreach.",
+        "Increased media impressions by 30%, reaching 3,595 impressions through targeted social media, email marketing, and integrated marketing efforts.",
+        "Established cross-organizational collaborations, fostering partnerships to expand event reach and enhance community engagement.",
+      ],
+    },
+    {
+      title: "Founder | Tutor",
+      company_name: "Tutorly",
+      icon: Tutorly,
+      scale: 2,
+      iconBg: "white",
+      date: "December 2021 - Present",
+      points: [
+        "Operating a tutoring business, overseeing a team of tutors, and managing client relationships. Collaborated with a team of educators to develop personalized lesson plans for each student leading to an average 15-20% improvement in students' academic performance.",
+        "Developed and executed a marketing strategy, increasing the client base by 40% through targeted outreach and digital campaigns. Managed scheduling, client communication, and progress tracking to ensure efficient operations.",
+        "Delivered tutoring services resulting in improvement on students performances on assignments and test scores, which were achieved through personalized lesson plans, tailored study strategies, and ongoing progress assessments.",
       ],
     },
     {
@@ -234,39 +334,39 @@ import {
       iconBg: "white",
       date: "Febuary 2024 - Present",
       points: [
-        "Collaborated with Committee and team members for the execution of various Data Science Challenges including the High School Big Data Challenge (HSBDC) and Inter-University Big Data Challenge (IUBDC).",
+        "Collaborated with Committee and team members for the execution of various Data Science Challenges and hackathons including the High School Big Data Challenge (HSBDC) and Inter-University Big Data Challenge (IUBDC).",
         "Managed, Organized and carried out tasks relating to the organization of these events including writing press releases, social media posts, workshops, Q & A Sessions, etc.",
         "Contacted industry experts, government officials, and organizations in order to facilitate workshops and guest speaker sessions during events & competitions.",
       ],
     },
-    {
-      title: "Research Assistant",
-      company_name: "University of Toronto - Shoichet Lab",
-      icon: Uoft,
-      scale: 1.8,
-      iconBg: "white",
-      date: "Febuary 2024 - March 2024",
-      points: [
-        "Learned & Contributed to interdisciplinary research focused on Regenerative Medicine, TissueEngineering, and Drug Delivery.",
-        "Collaborated with a Post - Doctoral Fellow in the practical aspects of scientific exploration, including the intricate processes of hydrogel formation, in-depth controlled release studies, and the synthesis of peptides.",
-        "Applied innovative design criteria as a foundation for problem-solving, contributing to the lab's pursuit of groundbreaking solutions and analyzed produced data utilizing metrics such as calibration curves.",
-      ],
-    },
-  ];
 
+  ];
     
   const educations = [
+      {
+      title: "University of Waterloo",
+      school: "Bachelor of Engineering (B.Eng.), Software Engineering",
+      icon: Waterloo,
+      iconBg: "white",
+      scale: 1.9, // Add scale property here
+      date: "Sep 2025 - April 20230",
+      points: [
+        "President’s Scholarship of Distinction ($5,000), Software Engineering Scholarship ($4,000), and external scholarships totaling over $15,000",
+      ],
+    },
     {
       title: "Castlebrooke Secondary School",
       school: "High School Diploma",
       icon: Castlebrooke,
       iconBg: "white",
       scale: 1.9, // Add scale property here
-      date: "Sep 2021 - Present",
+      date: "Sep 2021 - June 2025",
       points: [
-        "Rising senior with a 97.6% academic average, actively involved in my school community through leadership roles in various clubs, events, and organizations.",
-        "Activities & Societies: President/Founder of Math Club, President of DECA Chapter, President of Computer Science Club, Fundraising Director for STEM Club, Engineering Club, Physics Club.",
-        "Honor Roll (Gr 9 - 11)",
+        "Honour Standing, Top Ontario Scholar, 99\% Average (4.0 GPA)",
+        "Activities & Societies: President/Founder of Math Club, President of DECA, President of Computer Science Club, Fundraising Director for STEM Club, Engineering Club, Vice - President of Physics Club, Robotics, Math Contests",
+        "Honor Roll (Gr 9 - 12)",
+        "Schulich Leader Nominee",
+        "Scholarship Award Offers from various Universities and Institutions totaling to over \$220,000",
       ],
     },
     {
@@ -283,6 +383,8 @@ import {
       ],
     },
   ];
+  
+  
   
   
   const projects = [
@@ -436,4 +538,4 @@ import {
 
   ];
   
-  export { services, technologies, experiences, projects,educations };
+  export { services, technologies, experiences, projects,educations, experiences2};

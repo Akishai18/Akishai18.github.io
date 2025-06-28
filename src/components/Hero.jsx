@@ -26,7 +26,7 @@ const Hero = () => {
           Hi, I'm <span className={`${styles.heroHeadTextCOLOR}`}> Akishai </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a 17-year-old developer on an adventure to create, innovate, and push the boundaries of what's possible through technology. <br className="sm:block hidden" />
+            I am a 18-year-old developer on an adventure to create, innovate, and push the boundaries of what's possible through technology. <br className="sm:block hidden" />
             With a passion for learning and exploring new technologies, I'm driven to build solutions that inspire and make a difference.
           </p>
         </div>

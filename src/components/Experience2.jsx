@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 
 import {styles} from '../styles';
-import {experiences} from  '../constants';
+import {experiences2} from  '../constants';
 import { SectionWrapper } from '../hoc';
 
 import { textVariant } from '../utils/motion';
@@ -60,22 +60,22 @@ const ExperienceCard = ({ experience }) => {
     </VerticalTimelineElement>
   );
 };
-const Experience = () => {
+const Experience2 = () => {
   
   return (
     <>
        <motion.div>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          Some other things I have done
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience
+          Extracurricualrs
         </h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
+          {experiences2.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
@@ -88,4 +88,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience2, "extracurriculars");

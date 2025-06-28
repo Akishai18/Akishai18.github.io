@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
+import Experience2 from './Experience2';
 import Works from './Works';
 import Contact from './Contact';
 import Education from './Education';
@@ -14,6 +15,7 @@ export {
   About,
   Tech,
   Experience,
+  Experience2,
   Works,
   Contact,
   Footer,

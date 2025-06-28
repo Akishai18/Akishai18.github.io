@@ -108,22 +108,22 @@ const Works = () => {
         className="mt-8 text-white text-[17px] max-w-3xl leading-[30px] text-center mx-auto"
       >
         <ul className='list-none p-0'>
-          <li>🏆 Second Place Champion in Financial Consulting at the DECA International Competition (ICDC 2024) </li>
-          <li>🌟 Top 10 International Finalist in Financial Consulting (ICDC 2024) </li>
-          <li>📈 Top 10 Presentation in Financial Consulting (ICDC 2024) </li>
-          <li>📚 Top 10 Exam Score in Financial Consulting (ICDC 2024) </li>
-          <li><br></br></li>
+          <li>🏆 First Place International Champion in Financial Consulting at the DECA International Competition (ICDC 2025) </li>
+          <li>🥈 Second Place International Champion in Financial Consulting at ICDC 2024 </li>
+          <li>🌟 Top 10 International Finalist in Financial Consulting x2 (ICDC 2024 & 2025) </li>
+          <li>📈 Top 10 Presentation in Financial Consulting x2 (ICDC 2024 & 2025) </li>
+          <li>📚 Top 10 Exam Score in Financial Consulting x2 (ICDC 2024 & 2025) </li>
+          <li>🥇 DECA Provincials 2025 Provincial Champion in the Financial Consulting Event (Provincials 2025) </li>
+          <li>🎓Schulich Leader Nominee</li>    
           <li>🏅 Provincial Champion in Financial Consulting at the DECA Provincials Competition (Provincials 2024) </li>
-          <li>📊 Top 10 Provincials Finalist in Financial Consulting (Provincials 2024)</li>
-          <li>🥇 Top Exam Score in Financial Consulting (Provincials 2024)</li>
-          <li><br></br></li>          
-          <li>📜 Certificate of Achievement for Second Highest Score on the Euclid Math Contest at Castlebrooke SS</li>
+          <li>📊 Top 10 Provincials Finalist in Financial Consulting x2 (Provincials 2024 & 2025)</li>
+          <li>🥇 Top Exam Score in Financial Consulting x2 (Provincials 2024 & 2025)</li>
+          <li>📜 Euclid Math Contest School Champion</li>
           <li>♾️ Published Math Paper through the Oxford Math Essay Writing Contest</li>
           <li>💻 Published a Computer Science Paper on the P Vs NP Problem in a STEM Journal known as The STEM Spectrum that has an audiance of over 15,000 individuals. (8% Selection Rate)</li>
           <li>🔬 Attended the Quantum School For Young Students, particpating in groundbreaking Research into Quantum Information Science</li>
-          <li><br></br></li>
-          <li>🎖️ Top 10 Overall Regionals Finalist in SEM (DECA Regionals 2022 )</li>
-          <li>⭐ Top 10 Oral Role Play Medal in SEM (Regionals 2022) </li>
+          <li>🌟 Top Ontario Scholar </li>
+          <li>🗝️ Karla Bailey Trustee Award </li>
           <li>🎓 Honor Roll (Gr 9 - 12) </li>
         </ul>
       </motion.p>

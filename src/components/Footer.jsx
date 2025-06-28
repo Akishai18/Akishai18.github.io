@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faTrophy, faCogs, faMedal } from '@fortawesome/free-solid-svg-icons';
+import { faTrophy, faCogs, faMedal, faMoneyBill} from '@fortawesome/free-solid-svg-icons';
 import { navLinks } from '../constants';
 
 function Footer() {
   const [awardsCount, setAwardsCount] = useState(0);
   const [projectsCount, setProjectsCount] = useState(0);
+  const [scholarshipCount, setScholarshipCount] = useState(0);
   const [volunteerHoursCount, setVolunteerHoursCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -33,7 +34,8 @@ function Footer() {
     if (isVisible) {
       countUp(setAwardsCount, 30); // Awards count up to 15
       countUp(setProjectsCount, 15); // Projects count up to 25
-      countUp(setVolunteerHoursCount, 600); // Volunteer hours count up to 100
+      countUp(setScholarshipCount, 220000); // Scholarship count up to 220,000
+      countUp(setVolunteerHoursCount, 800); // Volunteer hours count up to 100
     }
   }, [isVisible]);
 
@@ -77,8 +79,16 @@ function Footer() {
               <h3 className="text-5xl font-bold">{projectsCount}</h3>
               <p className="text-lg mt-2">Projects</p>
             </div>
+
+                        
+            {/* Showcase Item 3: Scholarships */}
+            <div>
+              <FontAwesomeIcon icon={faMoneyBill} size="3x" className="mb-4" />
+              <h3 className="text-5xl font-bold">${scholarshipCount.toLocaleString()}+</h3>
+              <p className="text-lg mt-2">In Scholarships</p>
+            </div>
             
-            {/* Showcase Item 3: Volunteer Hours */}
+            {/* Showcase Item 4: Volunteer Hours */}
             <div>
               <FontAwesomeIcon icon={faMedal} size="3x" className="mb-4" />
               <h3 className="text-5xl font-bold">{volunteerHoursCount}+</h3>
