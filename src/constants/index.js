@@ -349,7 +349,7 @@ import {
       icon: Waterloo,
       iconBg: "white",
       scale: 1.9, // Add scale property here
-      date: "Sep 2025 - April 20230",
+      date: "Sep 2025 - April 2030",
       points: [
         "President’s Scholarship of Distinction ($5,000), Software Engineering Scholarship ($4,000), and external scholarships totaling over $15,000",
       ],
