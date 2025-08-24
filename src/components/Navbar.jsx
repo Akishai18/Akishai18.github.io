@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
@@ -9,6 +8,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileView, setIsMobileView] = useState(window.innerWidth < 1372);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,8 +19,21 @@ const Navbar = () => {
       }
     };
 
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth < 1372);
+      // Close mobile menu when switching to desktop view
+      if (window.innerWidth >= 1372) {
+        setToggle(false);
+      }
+    };
+
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
@@ -39,11 +52,12 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Akishai Sabaratnasarma &nbsp;
-            <span className='sm:block hidden'> | Portfolio </span>
+            <span className={`${isMobileView ? 'hidden' : 'block'}`}> | Portfolio </span>
           </p>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        {/* Desktop Navigation - Show when width >= 1372px */}
+        <ul className={`${isMobileView ? 'hidden' : 'flex'} list-none flex-row gap-10`}>
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -59,7 +73,8 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        {/* Mobile Navigation - Show when width < 1372px */}
+        <div className={`${isMobileView ? 'flex' : 'hidden'} flex-1 justify-end items-center`}>
           <img
             src={toggle ? close : menu}
             alt="menu"

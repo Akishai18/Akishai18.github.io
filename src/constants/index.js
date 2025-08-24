@@ -9,7 +9,11 @@ import {
     reactjs,
     tailwind,
     nextjs,
+    nutriscan,
     nodejs,
+    scikit,
+    php,
+    Laravel,
     C,
     GoogleC,
     Arduino,
@@ -152,6 +156,23 @@ import {
     {
       name: "C / C++",
       icon: C,
+      scale: 64,
+    },
+
+        {
+      name: "PHP",
+      icon: php,
+      scale: 90,
+    },
+
+        {
+      name: "Laravel",
+      icon: Laravel,
+      scale: 64,
+    },
+    {
+      name: "Sci-Kit Learn",
+      icon: scikit,
       scale: 64,
     },
     {
@@ -388,10 +409,52 @@ import {
   
   
   const projects = [
+        {
+      name: "NutriScan",
+      description:
+        "NutriScan is a computer vision-powered food recognition app using OpenCV, Flask, vector databases, and RAG to deliver real-time nutritional insights with semantic search and a React-Tailwind frontend.",
+      tags: [
+        {
+          name: "Retrieval-Augmented Generation",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vector Databases",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Computer Vision",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nutriscan,
+      source_code_link: "https://github.com/Akishai18/NutriScan",
+    },
     {
+      name: "Pineapple Pathways",
+      description:
+        "Pineapple Pathways integrates Flask, React, Cohere ReRank, and OpenAI APIs to deliver scholarship matching, AI-powered essay feedback, tuition prediction, and admissions statistics through a unified platform with clean, data-driven interfaces.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python/Flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Cohere ReRank",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Pineapple,
+      source_code_link: "https://github.com/Akishai18/Pineapple-Pathways",
+    },
+      {
       name: "Home Price Predictor",
       description:
-        "A machine learning model that forecasts future home prices across various property types and locations in the Greater Toronto Area (GTA), offering data-driven insights for real estate trends.",
+        "Developed a Random Forest-based predictive model using Scikit-learn, Pandas, and NumPy to forecast GTA home prices, integrated with a Flask backend and React frontend for interactive, data-driven real estate insights.",
       tags: [
         {
           name: "react",
@@ -408,27 +471,6 @@ import {
       ],
       image: Home,
       source_code_link: "https://github.com/Akishai18/Home-Price-Prediction-App",
-    },
-    {
-      name: "Pineapple Pathways",
-      description:
-        "Pineapple Pathways provides personalized guidance, scholarship matching, and expert tips for applications, interviews, and essays, helping you confidently achieve your academic goals.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Python/Flask",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Cohere API",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Pineapple,
-      source_code_link: "https://github.com/Akishai18/Pineapple-Pathways",
     },
     {
       name: "Career Bot",
@@ -450,6 +492,27 @@ import {
       ],
       image: Career,
       source_code_link: "https://github.com/Akishai18/Career-Bot",
+    },
+      {
+      name: "Heart Disease Predictor",
+      description:
+        "Developed a machine learning model with Scikit-learn, Pandas, and NumPy to predict heart disease risk, applying data preprocessing, feature engineering, and model optimization to deliver accurate, data-driven health insights.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NumPy/Pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SciKit Learn",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Heart,
+      source_code_link: "https://github.com/Akishai18/Heart-Disease-Prediction-Project",
     },
     {
       name: "Mind Mental Health",
@@ -492,27 +555,6 @@ import {
       ],
       image: Quiz,
       source_code_link: "https://github.com/Akishai18/Quiz-Rigour",
-    },
-    {
-      name: "Heart Disease Predictor",
-      description:
-        "An advanced application powered by machine learning that predicts a user's risk of heart disease, enabling proactive health management.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tkinter",
-          color: "green-text-gradient",
-        },
-        {
-          name: "SciKit Learn",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Heart,
-      source_code_link: "https://github.com/Akishai18/Heart-Disease-Prediction-Project",
     },
     {
       name: "Tetris Reloaded",

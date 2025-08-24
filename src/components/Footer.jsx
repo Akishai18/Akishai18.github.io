@@ -32,10 +32,10 @@ function Footer() {
     };
 
     if (isVisible) {
-      countUp(setAwardsCount, 30); // Awards count up to 15
-      countUp(setProjectsCount, 15); // Projects count up to 25
+      countUp(setAwardsCount, 30); // Awards count up to 30
+      countUp(setProjectsCount, 15); // Projects count up to 15
       countUp(setScholarshipCount, 220000); // Scholarship count up to 220,000
-      countUp(setVolunteerHoursCount, 800); // Volunteer hours count up to 100
+      countUp(setVolunteerHoursCount, 800); // Volunteer hours count up to 800
     }
   }, [isVisible]);
 
@@ -64,35 +64,65 @@ function Footer() {
     <div>
       {/* First Section: Awards and Metrics */}
       <div className="bg-black-100 py-10 text-white flex flex-col items-center">
-        <div className="w-full max-w-7xl mx-auto mb-12">
-          <div className="flex justify-around text-center" ref={sectionRef}>
+        <div className="w-full max-w-7xl mx-auto mb-12 px-4">
+          <div 
+            className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 text-center" 
+            ref={sectionRef}
+          >
             {/* Showcase Item 1: Awards */}
-            <div>
-              <FontAwesomeIcon icon={faTrophy} size="3x" className="mb-4" />
-              <h3 className="text-5xl font-bold">{awardsCount}</h3>
-              <p className="text-lg mt-2">Awards Received</p>
+            <div className="flex flex-col items-center">
+              <FontAwesomeIcon 
+                icon={faTrophy} 
+                className="mb-4 text-2xl sm:text-3xl lg:text-4xl" 
+              />
+              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+                {awardsCount}
+              </h3>
+              <p className="text-sm sm:text-base lg:text-lg mt-2">
+                Awards Received
+              </p>
             </div>
             
             {/* Showcase Item 2: Projects */}
-            <div>
-              <FontAwesomeIcon icon={faCogs} size="3x" className="mb-4" />
-              <h3 className="text-5xl font-bold">{projectsCount}</h3>
-              <p className="text-lg mt-2">Projects</p>
+            <div className="flex flex-col items-center">
+              <FontAwesomeIcon 
+                icon={faCogs} 
+                className="mb-4 text-2xl sm:text-3xl lg:text-4xl" 
+              />
+              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+                {projectsCount}
+              </h3>
+              <p className="text-sm sm:text-base lg:text-lg mt-2">
+                Projects
+              </p>
             </div>
 
-                        
             {/* Showcase Item 3: Scholarships */}
-            <div>
-              <FontAwesomeIcon icon={faMoneyBill} size="3x" className="mb-4" />
-              <h3 className="text-5xl font-bold">${scholarshipCount.toLocaleString()}+</h3>
-              <p className="text-lg mt-2">In Scholarships</p>
+            <div className="flex flex-col items-center">
+              <FontAwesomeIcon 
+                icon={faMoneyBill} 
+                className="mb-4 text-2xl sm:text-3xl lg:text-4xl" 
+              />
+              <h3 className="text-2xl sm:text-3xl lg:text-5xl font-bold">
+                ${scholarshipCount.toLocaleString()}+
+              </h3>
+              <p className="text-sm sm:text-base lg:text-lg mt-2">
+                In Scholarships
+              </p>
             </div>
             
             {/* Showcase Item 4: Volunteer Hours */}
-            <div>
-              <FontAwesomeIcon icon={faMedal} size="3x" className="mb-4" />
-              <h3 className="text-5xl font-bold">{volunteerHoursCount}+</h3>
-              <p className="text-lg mt-2">Volunteer Hours</p>
+            <div className="flex flex-col items-center">
+              <FontAwesomeIcon 
+                icon={faMedal} 
+                className="mb-4 text-2xl sm:text-3xl lg:text-4xl" 
+              />
+              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+                {volunteerHoursCount}+
+              </h3>
+              <p className="text-sm sm:text-base lg:text-lg mt-2">
+                Volunteer Hours
+              </p>
             </div>
           </div>
         </div>
@@ -101,13 +131,13 @@ function Footer() {
       {/* Second Section: Links and Social Media */}
       <div className="bg-transparent-900 py-8 text-white">
         {/* First Row: Section Titles */}
-        <div className="w-full max-w-7xl mx-auto text-center">
-          <div className="flex justify-center flex-wrap space-x-8 mb-8">
+        <div className="w-full max-w-7xl mx-auto text-center px-4">
+          <div className="flex justify-center flex-wrap gap-4 sm:gap-6 lg:gap-8 mb-8">
             {navLinks.map((link) => (
               <div key={link.id} className="mb-2">
                 <a 
                   href={`#${link.id}`} 
-                  className="text-xl font-bold cursor-pointer hover:text-gray-300"
+                  className="text-lg sm:text-xl font-bold cursor-pointer hover:text-gray-300"
                 >
                   {link.title}
                 </a>
@@ -117,27 +147,31 @@ function Footer() {
         </div>
 
         {/* Second Row: Social Media Icons */}
-        <section className="w-full flex justify-center mt-8">
-          <div className="flex space-x-6">
+        <section className="w-full flex justify-center mt-8 px-4">
+          <div className="flex gap-4 sm:gap-6">
             <a href="/" className="text-2xl hover:text-gray-300" aria-label="Github">
-              <div className="w-16 h-16 text-white hover:text-red-400 transition-colors duration-300">
-                <FontAwesomeIcon icon={faGithub} size="2x" />
+              <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-red-400 transition-colors duration-300 flex items-center justify-center">
+                <FontAwesomeIcon icon={faGithub} className="text-xl sm:text-2xl" />
               </div>
             </a>
             <a href="/" className="text-2xl hover:text-gray-300" aria-label="LinkedIn">
-              <div className="w-16 h-16 text-white hover:text-blue-500 transition-colors duration-300">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-blue-500 transition-colors duration-300 flex items-center justify-center">
+                <FontAwesomeIcon icon={faLinkedin} className="text-xl sm:text-2xl" />
               </div>
             </a>
             <a href="/" className="text-2xl hover:text-gray-300" aria-label="Instagram">
-              <div className="w-16 h-16 text-white hover:text-pink-500 transition-colors duration-300">
-                <FontAwesomeIcon icon={faInstagram} size="2x" />
+              <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-pink-500 transition-colors duration-300 flex items-center justify-center">
+                <FontAwesomeIcon icon={faInstagram} className="text-xl sm:text-2xl" />
               </div>
             </a>
           </div>
         </section>
+        
+        {/* Attribution */}
+        <div className="text-center mt-8 px-4">
+          <p className="text-xs text-gray-500">Design Inspired by: JS Mastery</p>
+        </div>
       </div>
-      <p class="text-xs text-gray-500">Design Inspired by: JS Mastery</p>
     </div>
   );
 }

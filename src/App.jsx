@@ -10,12 +10,40 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <div className = "relative z-0">
         <About />
+        <StarsCanvas />
+          </div>
+        <div className = "relative z-0"> 
+
+
         <Experience />
+                  <StarsCanvas />
+          </div>
+
+                        <div className = "relative z-0"> 
+  
+
         <Education/>
+                <StarsCanvas />
+          </div>
+                <div className = "relative z-0"> 
+
+
           <Experience2 />
+          <StarsCanvas />
+          </div>
+        <div className = "relative z-0"> 
+
         <Tech />
+                 <StarsCanvas />
+          </div>
+        <div className = "relative z-0"> 
+
         <Works />
+            <StarsCanvas />
+          </div>
+
         <div className = "relative z-0"> 
           <Contact/>
           <StarsCanvas />
@@ -24,6 +52,7 @@ const App = () => {
             <Footer/>
             <StarsCanvas />
           </div>
+
     </div>
     </BrowserRouter>
   )

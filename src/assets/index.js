@@ -22,6 +22,11 @@ import nodejs from "./tech/nodejs.png";
 import mysql from "./tech/mysql.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import php from "./tech/php.png";
+import Laravel from "./tech/Laravel.png";
+import scikit from "./tech/sci-kit.png";
+
+
 
 import JEC from "./company/JEC.png";
 import Uoft from "./company/Uoft.png";
@@ -30,6 +35,7 @@ import DECA from "./company/DECA.png";
 import CareerChats from "./company/CareerChats.png";
 import Ysa from "./company/YSA.png";
 import Home from "./Home.png";
+import nutriscan from "./nutriscan.png";
 import NorthPND from "./company/NorthPND.png";
 import Castlebrooke from "./company/Castlebrooke.png";
 import Nvestiv from "./company/Nvestiv.png";
@@ -57,6 +63,8 @@ export {
   NorthPND,
   C,
   github,
+  php,
+  Laravel,
   menu,
   close,
   css,
@@ -71,8 +79,10 @@ export {
   mysql,
   Career,
   python,
+  nutriscan,
   flask,
   Excell,
+  scikit,
   Arduino,
   GoogleC,
   git,

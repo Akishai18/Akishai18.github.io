@@ -17,7 +17,12 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div 
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      viewport={{ once: true, amount: 0.1 }}
+      initial="hidden"
+      whileInView="show"
+    >
       <Tilt
         options={{
           max: 45,
@@ -70,7 +75,13 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className="text-center">
+      <motion.div 
+        variants={textVariant()} 
+        className="text-center"
+        viewport={{ once: true, amount: 0.1 }}
+        initial="hidden"
+        whileInView="show"
+      >
         <p className={`${styles.sectionSubText}`}>My work</p>
         <h2 className={`${styles.sectionHeadText} mt-4`}>
           Projects.
@@ -81,6 +92,9 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='text-secondary text-[17px] max-w-3xl leading-[30px] text-center'
+          viewport={{ once: true, amount: 0.1 }}
+          initial="hidden"
+          whileInView="show"
         >
           Following projects showcase my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -95,17 +109,28 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-        <section id="awards"> 
-      <motion.div variants={textVariant()} className="text-center mt-16">
-        <p className={`${styles.sectionSubText}`}></p>
-        <h2 className={`${styles.sectionHeadText} mt-8`}>
-          Distinctions & Awards
-        </h2>
-      </motion.div>
+        
+      <section id="awards"> 
+        <motion.div 
+          variants={textVariant()} 
+          className="text-center mt-16"
+          viewport={{ once: true, amount: 0.1 }}
+          initial="hidden"
+          whileInView="show"
+        >
+          <p className={`${styles.sectionSubText}`}></p>
+          <h2 className={`${styles.sectionHeadText} mt-8`}>
+            Distinctions & Awards
+          </h2>
+        </motion.div>
       </section>
+      
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-8 text-white text-[17px] max-w-3xl leading-[30px] text-center mx-auto"
+        viewport={{ once: true, amount: 0.1 }}
+        initial="hidden"
+        whileInView="show"
       >
         <ul className='list-none p-0'>
           <li>🏆 First Place International Champion in Financial Consulting at the DECA International Competition (ICDC 2025) </li>
@@ -127,7 +152,6 @@ const Works = () => {
           <li>🎓 Honor Roll (Gr 9 - 12) </li>
         </ul>
       </motion.p>
-
     </>
   );
 };
