@@ -160,7 +160,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faLinkedin} className="text-xl sm:text-2xl" />
               </div>
             </a>
-          <a href="mailto:your.email@example.com">
+          <a href="mailto:akishais18@gmail.com">
               <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-red-500 transition-colors duration-300 flex items-center justify-center">
               <FontAwesomeIcon icon={faEnvelope} className="text-xl sm:text-2xl" />
             </div>

@@ -48,7 +48,7 @@ const Hero = () => {
           </a>
 
             {/* Email Icon */}
-          <a href="mailto:your.email@example.com">
+          <a href="mailto:akishais18@gmail.com">
             <div className="w-12 h-12 text-white hover:text-red-500 transition-colors duration-300">
               <FontAwesomeIcon icon={faEnvelope} size="3x" />
             </div>
