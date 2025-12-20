@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faTrophy, faCogs, faMedal, faMoneyBill} from '@fortawesome/free-solid-svg-icons';
 import { navLinks } from '../constants';
 
@@ -159,6 +160,11 @@ function Footer() {
                 <FontAwesomeIcon icon={faLinkedin} className="text-xl sm:text-2xl" />
               </div>
             </a>
+          <a href="mailto:your.email@example.com">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-red-500 transition-colors duration-300 flex items-center justify-center">
+              <FontAwesomeIcon icon={faEnvelope} className="text-xl sm:text-2xl" />
+            </div>
+          </a>
             <a href="/" className="text-2xl hover:text-gray-300" aria-label="Instagram">
               <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-pink-500 transition-colors duration-300 flex items-center justify-center">
                 <FontAwesomeIcon icon={faInstagram} className="text-xl sm:text-2xl" />

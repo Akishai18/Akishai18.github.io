@@ -9,6 +9,7 @@ import {
     reactjs,
     tailwind,
     nextjs,
+    Pose,
     nutriscan,
     nodejs,
     scikit,
@@ -410,25 +411,25 @@ import {
   
   const projects = [
         {
-      name: "NutriScan",
+      name: "PosePerfect",
       description:
-        "NutriScan is a computer vision-powered food recognition app using OpenCV, Flask, vector databases, and RAG to deliver real-time nutritional insights with semantic search and a React-Tailwind frontend.",
+        "PosePerfect is a real-time fitness coaching app that uses OpenCV-based pose estimation in the browser to track body landmarks and joint angles, then applies generative AI to turn pose data and screenshots into clear, actionable exercise form feedback.",
       tags: [
         {
-          name: "Retrieval-Augmented Generation",
+          name: "Computer Vision",
           color: "blue-text-gradient",
         },
         {
-          name: "Vector Databases",
+          name: "OpenCV",
           color: "green-text-gradient",
         },
         {
-          name: "Computer Vision",
+          name: "Generative AI",
           color: "pink-text-gradient",
         },
       ],
-      image: nutriscan,
-      source_code_link: "https://github.com/Akishai18/NutriScan",
+      image: Pose,
+      source_code_link: "https://github.com/Akishai18",
     },
     {
       name: "Pineapple Pathways",
@@ -471,6 +472,27 @@ import {
       ],
       image: Home,
       source_code_link: "https://github.com/Akishai18/Home-Price-Prediction-App",
+    },
+          {
+      name: "NutriScan",
+      description:
+        "NutriScan is a computer vision-powered food recognition app using OpenCV, Flask, vector databases, and RAG to deliver real-time nutritional insights with semantic search and a React-Tailwind frontend.",
+      tags: [
+        {
+          name: "Retrieval-Augmented Generation",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vector Databases",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Computer Vision",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nutriscan,
+      source_code_link: "https://github.com/Akishai18/NutriScan",
     },
     {
       name: "Career Bot",

@@ -50,6 +50,7 @@ import Jamhacks from "./company/Jamhacks.png";
 import FinTech from "./company/FinTech.png";
 import MCYC from "./company/MCYC.png";
 import Tutorly from "./company/Tutorly.png";
+import Pose from "./Pose.png";
 export {
   logo,
   backend,
@@ -61,6 +62,7 @@ export {
   MCYC,
   Tutorly,
   NorthPND,
+  Pose,
   C,
   github,
   php,

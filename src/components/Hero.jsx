@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { styles } from "../styles";
 
 const Hero = () => {
@@ -46,6 +47,13 @@ const Hero = () => {
             </div>
           </a>
 
+            {/* Email Icon */}
+          <a href="mailto:your.email@example.com">
+            <div className="w-12 h-12 text-white hover:text-red-500 transition-colors duration-300">
+              <FontAwesomeIcon icon={faEnvelope} size="3x" />
+            </div>
+          </a>
+          
           {/* Instagram Icon */}
           <a href="https://www.instagram.com/akishai_18/" target="_blank" rel="noopener noreferrer">
             <div className="w-12 h-12 text-white hover:text-pink-500 transition-colors duration-300">
