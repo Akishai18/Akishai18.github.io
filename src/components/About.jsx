@@ -5,21 +5,30 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from '../hoc';
-import { technologies } from "../constants";
+
+import python from '../assets/tech/python.png';
+import mysql from '../assets/tech/mysql.png';
+import C from '../assets/tech/C.png';
+import flask from '../assets/tech/flask.png';
+import reactjs from '../assets/tech/reactjs.png';
+import javascript from '../assets/tech/javascript.png';
+import nextjs from '../assets/tech/nextjs.png';
+import tailwind from '../assets/tech/tailwind.png';
+import nodejs from '../assets/tech/nodejs.png';
 
 const techStackIcons = {
   backend: [
-    { name: 'Python', icon: 'src/assets/tech/python.png' },
-    { name: 'MySQL', icon: 'src/assets/tech/mysql.png' },
-    { name: 'C', icon: 'src/assets/tech/C.png' },
-    { name: 'Flask', icon: 'src/assets/tech/flask.png'  },
+    { name: 'Python', icon: python },
+    { name: 'MySQL', icon: mysql },
+    { name: 'C', icon: C },
+    { name: 'Flask', icon: flask },
   ],
   frontend: [
-    { name: 'React', icon: 'src/assets/tech/reactjs.png'  },
-    { name: 'JavaScript', icon: 'src/assets/tech/javascript.png'  },
-    { name: 'Next.js', icon: 'src/assets/tech/nextjs.png' },
-    { name: 'Tailwind', icon: 'src/assets/tech/tailwind.png'  },
-    { name: 'Node', icon: 'src/assets/tech/nodejs.png'  },
+    { name: 'React', icon: reactjs },
+    { name: 'JavaScript', icon: javascript },
+    { name: 'Next.js', icon: nextjs },
+    { name: 'Tailwind', icon: tailwind },
+    { name: 'Node', icon: nodejs },
   ],
 };
 
