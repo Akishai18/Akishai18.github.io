@@ -206,7 +206,7 @@ import {
       icon: NorthPND,
       iconBg: "white",
       scale: 1.4, // Add scale property here
-      date: "June 2025 - Present",
+      date: "June 2025 - August 2025",
       points: [
         "Developed and optimized over 15 client website features by leveraging PHP, Vue.js, JavaScript, and MySQL, resulting in a 30\% increase in site performance metrics.",
         "Identified and resolved more than 40 critical bugs across frontend and backend systems, enhancing site stability which led to a 25\% decrease in customer-reported issues.",
@@ -219,7 +219,7 @@ import {
       icon: Nvestiv,
       iconBg: "white",
       scale: 1.35, // Add scale property here
-      date: "March 2025 - Present",
+      date: "March 2025 - August 2025",
       points: [
         "Developed an investment app with a responsive frontend UI with features such as interactive search and filtering and real-time data tables for investor insights, using React, TypeScript, JavaScript, and Tailwind CSS.",
         "Built an investor database tracking 200 investor profiles leveraging vector databases for semantic searching target efficiency by 30%.",
@@ -261,7 +261,7 @@ import {
       icon: Jamhacks,
       iconBg: "white",
       scale: 1.5, // Add scale property here
-      date: "August 2024 - Present",
+      date: "August 2024 - August 2025",
       points: [
         "Directed a team of three officers to raise $6,000+ in sponsorships and develop strong corporate partnerships, leveraging professionalcommunication and financial acumen to present value-driven proposals to potential partners",
         "Designed and implemented a comprehensive event budget, effectively allocating resources across key areas and reducingunnecessary expenses by 20%, supported by detailed financial reports ensuring fiscal transparency.",
@@ -274,7 +274,7 @@ import {
       icon: Ysa,
       scale: 1.35,
       iconBg: "#9ec0c2",
-      date: "July 2024 - Present",
+      date: "July 2024 - August 2025",
       points: [
         "Utilized React, JavaScript, CSS, HTML, and Node to build and maintain user-friendly web pages, focusing on creating an engaging and responsive user experience.",
         "Oversaw a team of junior developers, providing mentorship and guidance to enhance their skills and ensure effective project execution.",
@@ -288,7 +288,7 @@ import {
       icon: DECA,
       scale: 1.4,
       iconBg: "white",
-      date: "June 2024 - Present",
+      date: "June 2024 - June 2025",
       points: [
         "Directing a team of 12 executives to lead our delegation of over 300 students through various competitions and conferences. Lead my team in implementing workshops and training events which increased our chapter’s provincial qualifications by 40%.",
         "Implemented innovative training stratigies by colloborating with Presidents from across the world leading to our chapter achieving record breaking 99 Provincial qualifications --the highest number of provincial qualifications in our history.",
@@ -301,7 +301,7 @@ import {
       icon: FinTech,
       scale: 1.4,
       iconBg: "white",
-      date: "June 2024 - Present",
+      date: "June 2024 - December 2024",
       points: [
         "Led a team of 4 associates to secure partnerships with FinTech companies, successfully obtaining funding and industry support for a company-backed case competition",
         "Developed and executed financial strategies to secure sponsorships, manage budgets, and ensure sustainable funding for FinTech Nexus initiatives.",
@@ -314,7 +314,7 @@ import {
       icon: MCYC,
       scale: 1.4,
       iconBg: "white",
-      date: "August 2024 - Present",
+      date: "August 2024 - June 2025",
       points: [
         "Led marketing campaigns for the Ambassador Program, developing strategic campaign plans, content outlines, and performance reports to drive engagement and outreach.",
         "Increased media impressions by 30%, reaching 3,595 impressions through targeted social media, email marketing, and integrated marketing efforts.",
@@ -340,7 +340,7 @@ import {
       icon: JEC,
       scale: 1.5,
       iconBg: "black",
-      date: "August 2024 - Present",
+      date: "August 2024 - August 2025",
       points: [
         "Contributed to identifying potential sponsors and cultivating relationships, helping to secure funding and support for JEC events through effective outreach and communication.",
         "Assisted in the preparation and oversight of budgets, closely monitoring expenditures and resource allocation to maintain financial efficiency.",
@@ -354,7 +354,7 @@ import {
       icon: STEMF,
       scale: 1.8,
       iconBg: "white",
-      date: "Febuary 2024 - Present",
+      date: "Febuary 2024 - August 2025",
       points: [
         "Collaborated with Committee and team members for the execution of various Data Science Challenges and hackathons including the High School Big Data Challenge (HSBDC) and Inter-University Big Data Challenge (IUBDC).",
         "Managed, Organized and carried out tasks relating to the organization of these events including writing press releases, social media posts, workshops, Q & A Sessions, etc.",
@@ -373,7 +373,12 @@ import {
       scale: 1.9, // Add scale property here
       date: "Sep 2025 - April 2030",
       points: [
+        "Grade: 4.0 GPA",
         "President’s Scholarship of Distinction ($5,000), Software Engineering Scholarship ($4,000), and external scholarships totaling over $15,000",
+        "Engineering Society Leadership Excellence Award ($1,000)",
+        "Relevant Coursework: Calculus I/II, Linear Algebra, Software Engineering Principles, Programming Principles, Discrete Math, Digital / Linear Circuits, Data Abstraction",
+        "Firmware Engineer at Uwaterloo Formula Electric Team",
+        "Director of Web Development at the Engineering Society",
       ],
     },
     {
