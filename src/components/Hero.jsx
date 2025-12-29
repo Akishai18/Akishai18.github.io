@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { styles } from "../styles";
 
@@ -47,9 +48,16 @@ const Hero = () => {
             </div>
           </a>
 
+              {/* Resume Icon */}
+          <a href="https://drive.google.com/file/d/1dM9oyrXQ6EZPKajsH3iAV3lRLaTyAdB3/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <div className="w-12 h-12 text-white hover:text-yellow-500 transition-colors duration-300">
+              <FontAwesomeIcon icon={faFile} size="3x" />
+            </div>
+          </a>
+
             {/* Email Icon */}
           <a href="mailto:akishais18@gmail.com">
-            <div className="w-12 h-12 text-white hover:text-red-500 transition-colors duration-300">
+            <div className="w-12 h-12 text-white hover:text-green-600 transition-colors duration-300">
               <FontAwesomeIcon icon={faEnvelope} size="3x" />
             </div>
           </a>
