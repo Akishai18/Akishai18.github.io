@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faInstagram, faXTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { styles } from "../styles";
@@ -66,6 +66,12 @@ const Hero = () => {
           <a href="https://www.instagram.com/akishai_18/" target="_blank" rel="noopener noreferrer">
             <div className="w-12 h-12 text-white hover:text-pink-500 transition-colors duration-300">
               <FontAwesomeIcon icon={faInstagram} size="3x" />
+            </div>
+          </a>
+          {/* X Icon */}
+          <a href="https://x.com/Akishai_S/" target="_blank" rel="noopener noreferrer">
+            <div className="w-12 h-12 text-white hover:text-gray-500 transition-colors duration-300">
+              <FontAwesomeIcon icon={faXTwitter} size="3x" />
             </div>
           </a>
         </div>

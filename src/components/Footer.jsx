@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faInstagram, faXTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faTrophy, faCogs, faMedal, faMoneyBill} from '@fortawesome/free-solid-svg-icons';
 import { navLinks } from '../constants';
+import {webring} from '../assets';
 
 function Footer() {
   const [awardsCount, setAwardsCount] = useState(0);
@@ -150,33 +152,94 @@ function Footer() {
         {/* Second Row: Social Media Icons */}
         <section className="w-full flex justify-center mt-8 px-4">
           <div className="flex gap-4 sm:gap-6">
-            <a href="/" className="text-2xl hover:text-gray-300" aria-label="Github">
+            <a href="https://github.com/Akishai18" className="text-2xl hover:text-gray-300" aria-label="Github">
               <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-red-400 transition-colors duration-300 flex items-center justify-center">
                 <FontAwesomeIcon icon={faGithub} className="text-xl sm:text-2xl" />
               </div>
             </a>
-            <a href="/" className="text-2xl hover:text-gray-300" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/akishai" className="text-2xl hover:text-gray-300" aria-label="LinkedIn">
               <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-blue-500 transition-colors duration-300 flex items-center justify-center">
                 <FontAwesomeIcon icon={faLinkedin} className="text-xl sm:text-2xl" />
               </div>
             </a>
+          <a href="https://drive.google.com/file/d/1dM9oyrXQ6EZPKajsH3iAV3lRLaTyAdB3/view?usp=sharing" className="text-2xl hover:text-gray-300" aria-label="Resume">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-yellow-500 transition-colors duration-300 flex items-center justify-center">
+              <FontAwesomeIcon icon={faFile} className="text-xl sm:text-2xl" />
+            </div>
+          </a>
+
+
           <a href="mailto:akishais18@gmail.com">
               <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-red-500 transition-colors duration-300 flex items-center justify-center">
               <FontAwesomeIcon icon={faEnvelope} className="text-xl sm:text-2xl" />
             </div>
           </a>
-            <a href="/" className="text-2xl hover:text-gray-300" aria-label="Instagram">
+            <a href="https://www.instagram.com/akishai_18/" className="text-2xl hover:text-gray-300" aria-label="Instagram">
               <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-pink-500 transition-colors duration-300 flex items-center justify-center">
                 <FontAwesomeIcon icon={faInstagram} className="text-xl sm:text-2xl" />
               </div>
             </a>
+
+          <a href="https://x.com/Akishai_S/" className="text-2xl hover:text-gray-300" aria-label="X">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 text-white hover:text-gray-500 transition-colors duration-300 flex items-center justify-center">
+              <FontAwesomeIcon icon={faXTwitter} className="text-xl sm:text-2xl" />
+            </div>
+          </a>
           </div>
         </section>
+
         
-        {/* Attribution */}
-        <div className="text-center mt-8 px-4">
-          <p className="text-xs text-gray-500">Design Inspired by: JS Mastery</p>
-        </div>
+        {/* Third Row: Webring Icons */}
+        <section className="w-full flex justify-center mt-8 px-4">
+          <div className="flex items-center justify-center gap-6">
+            {/* SE '30 Webring */}
+            <div className="flex items-center gap-3">
+              <a 
+                href={`https://se30webring.com?from=${window.location.href}&dir=prev`} 
+                className="text-[#FFCE1A] text-2xl hover:text-[#FFE066] transition-colors duration-300"
+                aria-label="Previous in SE '30 Webring"
+              >
+                ←
+              </a>
+              <a 
+                href="https://se30webring.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
+                aria-label="SE '30 Webring"
+              >
+                <img 
+                  src="https://se30webring.com/assets/icon-yellow.svg" 
+                  alt="SE '30 Webring" 
+                  className="w-10 h-10 sm:w-12 sm:h-12 opacity-90 hover:opacity-100 transition-opacity" 
+                />
+              </a>
+              <a 
+                href={`https://se30webring.com?from=${window.location.href}&dir=next`} 
+                className="text-[#FFCE1A] text-2xl hover:text-[#FFE066] transition-colors duration-300"
+                aria-label="Next in SE '30 Webring"
+              >
+                →
+              </a>
+            </div>
+
+            {/* UW SE Webring */}
+            <a 
+              href="https://se-webring.xyz" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="transition-transform duration-300 hover:scale-110"
+              aria-label="UW SE Webring"
+            >
+              <img 
+                src={webring} 
+                alt="SE Webring" 
+                className="w-10 h-10 sm:w-12 sm:h-12 object-contain opacity-90 hover:opacity-100 transition-opacity" 
+              />
+            </a>
+          </div>
+        </section>
+
       </div>
     </div>
   );

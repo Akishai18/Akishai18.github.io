@@ -51,6 +51,7 @@ import FinTech from "./company/FinTech.png";
 import MCYC from "./company/MCYC.png";
 import Tutorly from "./company/Tutorly.png";
 import Pose from "./Pose.png";
+import webring from "./webring.png";
 export {
   logo,
   backend,
@@ -58,6 +59,7 @@ export {
   mobile,
   web,
   Jamhacks,
+  webring,
   FinTech,
   MCYC,
   Tutorly,
