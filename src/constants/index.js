@@ -208,9 +208,9 @@ import {
       scale: 1.4, // Add scale property here
       date: "June 2025 - August 2025",
       points: [
-        "Developed and optimized over 15 client website features by leveraging PHP, Vue.js, JavaScript, and MySQL, resulting in a 30\% increase in site performance metrics.",
-        "Identified and resolved more than 40 critical bugs across frontend and backend systems, enhancing site stability which led to a 25\% decrease in customer-reported issues.",
-        "Collaborated on database-driven functionalities that supported real-time data updates for multiple clients, increasing data retrieval efficiency by 20\% and ensuring scalable performance for high traffic volumes.",
+        "Developed and optimized 15+ client features including a scalable marketplace platform and RESTful API integrations by leveraging PHP, Vue.js, Laravel, and MySQL, resulting in a 30% increase in site performance metrics.",
+        "Developed database-driven functionalities that supported real-time data updates for multiple clients, increasing data retrieval efficiency by 20% and ensuring scalable performance for high traffic volumes.",
+        "Identified and resolved more than 40 critical bugs across frontend and backend systems, enhancing site stability   which led to a 25% decrease in customer-reported issues.",
       ],
     },
           {
@@ -221,9 +221,9 @@ import {
       scale: 1.35, // Add scale property here
       date: "March 2025 - August 2025",
       points: [
-        "Developed an investment app with a responsive frontend UI with features such as interactive search and filtering and real-time data tables for investor insights, using React, TypeScript, JavaScript, and Tailwind CSS.",
-        "Built an investor database tracking 200 investor profiles leveraging vector databases for semantic searching target efficiency by 30%.",
-        "Improved and fine-tuned AI-driven investment agents for the company’s investment dashboard using Elixir, refining algorithm performance by 25\% and integrated financial data APIs into the investment app for real time financial insights.",
+        "Developed a full-stack investment platform featuring interactive search & filtering and real-time portfolio analytics; reduced end-to-end request time by 40% by batching API calls and eliminating redundant fetches in a Next.js frontend.",
+        "Built an investor vector database using Weviate with a CLI for semantic searching, enabling efficient retrievalacross 20,000+ profiles and improving target accuracy by 30%",
+        "Refined AI-driven investment agents in Elixir, boosting performance by 25% by streamlining data processing logic and integrating real-time APIs to deliver instant financial insights.",
       ],
     },
     {
@@ -234,9 +234,9 @@ import {
       iconBg: "white",
       date: "Febuary 2024 - March 2024",
       points: [
-        "Conducted research in Regenerative Medicine, Tissue Engineering, and Drug Delivery at the Shoichet Lab, supporting breakthrough developments in developing non-invasive drug delivery systems.",
-        "Engineered and optimized hydrogel-based drug delivery methods, performing controlled release studies and peptide synthesis to enhance therapeutic efficacy.",
-        "Applied statistical analyses, data modeling, and developed machine learning models to identify material properties, predict drug behavior, and drive data-driven research insights.",
+        "Conducted research in Tissue Engineering and Drug Delivery, contributing to the development of non-invasive systems for targeted therapeutic transport in complex tissue environments.",
+        "Engineered and optimized over 20 hydrogel formulations, improving drug-loading efficiency by 20% through controlled release studies and high-purity peptide synthesis.",
+        "Applied statistical analyses, data modelling, and developed machine learning models using Python with accuracy of over 85% to identify material properties, predict drug behaviour, and drive data-driven research insights.",
       ],
     }
   ];
