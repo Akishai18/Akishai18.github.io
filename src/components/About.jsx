@@ -143,7 +143,7 @@ const About = () => {
             <div className="space-y-8">
               {/* Backend */}
               <div>
-                <h4 className="text-purple-400 text-[15px] font-semibold mb-4 tracking-wide">Backend</h4>
+                <h4 className="text-purple-400 text-[25px] font-semibold mb-4 tracking-wide">Backend</h4>
                 <div className="flex flex-wrap gap-4">
                   {techStackIcons.backend.map((tech) => (
                     <Tilt
@@ -169,7 +169,7 @@ const About = () => {
               
               {/* Frontend */}
               <div>
-                <h4 className="text-blue-400 text-[15px] font-semibold mb-4 tracking-wide">Frontend</h4>
+                <h4 className="text-blue-400 text-[25px] font-semibold mb-4 tracking-wide">Frontend</h4>
                 <div className="flex flex-wrap gap-4">
                   {techStackIcons.frontend.map((tech) => (
                     <Tilt
@@ -219,18 +219,20 @@ const About = () => {
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></span>
                   <p className="text-white/80 text-[16px] leading-[28px]">
-          Researching machine learning applications in quantitative finance, including algorithmic trading, risk modeling, and predictive market analytics          </p>     </div>
+          Building a market regime identification framework using unsupervised learning on volatility, correlation, and factor dynamics          </p>     </div>
                 
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></span>
                   <p className="text-white/80 text-[16px] leading-[28px]">
-        Building Nodaro, a student-led initiative providing resources and mentorship to empower young innovators   </p>             </div>
+        Building Nodaro, a student-led initiative providing resources, mentorship and opportunities in Hardware Technology to empower young innovators   </p>             </div>
                 
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-teal-400 mt-2 flex-shrink-0"></span>
                   <p className="text-white/80 text-[16px] leading-[28px]">
-          Studying and applying quantitative methods like Stochastic Calculus and Monte Carlo Simulations to financial software     </p>           </div>
-                
+                    Researching machine learning applications in quantitative finance, including algorithmic trading, risk modeling, and predictive market analytics
+                  </p>
+                </div>
+
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-cyan-400 mt-2 flex-shrink-0"></span>
                   <p className="text-white/80 text-[16px] leading-[28px]">
