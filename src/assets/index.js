@@ -25,7 +25,7 @@ import tailwind from "./tech/tailwind.png";
 import php from "./tech/php.png";
 import Laravel from "./tech/Laravel.png";
 import scikit from "./tech/sci-kit.png";
-
+import typescript from "./tech/Typescript.png";
 
 
 import JEC from "./company/JEC.png";
@@ -101,6 +101,7 @@ export {
   STEMF,
   JEC,
   DECA,
+  typescript,
   CareerChats,
   Ysa,
 };

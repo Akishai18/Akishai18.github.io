@@ -7,6 +7,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from '../hoc';
 
 import python from '../assets/tech/python.png';
+import typescript from '../assets/tech/Typescript.png';
 import mysql from '../assets/tech/mysql.png';
 import C from '../assets/tech/C.png';
 import flask from '../assets/tech/flask.png';
@@ -19,8 +20,9 @@ import nodejs from '../assets/tech/nodejs.png';
 const techStackIcons = {
   backend: [
     { name: 'Python', icon: python },
-    { name: 'MySQL', icon: mysql },
     { name: 'C', icon: C },
+    { name: 'TypeScript', icon: typescript },
+    { name: 'MySQL', icon: mysql },
     { name: 'Flask', icon: flask },
   ],
   frontend: [

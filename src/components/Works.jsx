@@ -127,7 +127,7 @@ const Works = () => {
 
 {/* Awards Grid */}
 <div className="mt-12 max-w-7xl mx-auto">
-  {/* DECA International Section */}
+  {/* International Section */}
   <motion.div
     variants={fadeIn("up", "spring", 0.2, 1)}
     viewport={{ once: true, amount: 0.1 }}
@@ -176,7 +176,7 @@ const Works = () => {
     </div>
   </motion.div>
 
-  {/* DECA Provincial Section */}
+  {/*  Provincial Section */}
   <motion.div
     variants={fadeIn("up", "spring", 0.3, 1)}
     viewport={{ once: true, amount: 0.1 }}
