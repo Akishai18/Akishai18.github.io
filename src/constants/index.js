@@ -11,6 +11,7 @@ import {
     nextjs,
     Pose,
     nutriscan,
+    typescript,
     nodejs,
     scikit,
     php,
@@ -108,6 +109,16 @@ import {
       scale: 64,
     },
     {
+      name: "C / C++",
+      icon: C,
+      scale: 64,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+      scale: 64,
+    },
+    {
       name: "Flask",
       icon: flask,
       scale: 128,
@@ -154,11 +165,6 @@ import {
       icon: tailwind,
       scale: 64,
     },
-    {
-      name: "C / C++",
-      icon: C,
-      scale: 64,
-    },
 
         {
       name: "PHP",
@@ -187,7 +193,7 @@ import {
       scale: 64,
     },
     {
-      name: "Excell",
+      name: "Excel",
       icon: Excell,
       scale: 64,
     },

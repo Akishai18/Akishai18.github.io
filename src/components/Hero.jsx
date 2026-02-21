@@ -28,7 +28,7 @@ const Hero = () => {
           Hi, I'm <span className={`${styles.heroHeadTextCOLOR}`}> Akishai </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a 18-year-old developer on an adventure to create, innovate, and push the boundaries of what's possible through technology. <br className="sm:block hidden" />
+            I am a young engineer and builder on an adventure to create, innovate, and push the boundaries of what's possible through technology. <br className="sm:block hidden" />
             With a passion for learning and exploring new technologies, I'm driven to build solutions that inspire and make a difference.
           </p>
         </div>
@@ -49,7 +49,7 @@ const Hero = () => {
           </a>
 
               {/* Resume Icon */}
-          <a href="https://drive.google.com/file/d/1dM9oyrXQ6EZPKajsH3iAV3lRLaTyAdB3/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1SkLsjJyz75VDf6Gdsh36H25bgn9dUPlB/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <div className="w-12 h-12 text-white hover:text-yellow-500 transition-colors duration-300">
               <FontAwesomeIcon icon={faFile} size="3x" />
             </div>
