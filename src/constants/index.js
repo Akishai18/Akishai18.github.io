@@ -16,6 +16,7 @@ import {
     scikit,
     php,
     Laravel,
+    SignalM,
     C,
     GoogleC,
     Arduino,
@@ -421,7 +422,28 @@ import {
   
   
   const projects = [
+    {
+      name: "SignalM",
+      description:
+        "SignalM is a market regime detection and prediction platform that uses PCA, HMM, and ML models to classify market conditions (Calm, Crisis, Elevated Stress, Transition) across major indices, with custom horizon forecasting and interactive visualizations.",
+      tags: [
         {
+          name: "Hidden Markov Models",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Principal Component Analysis",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: SignalM,
+      source_code_link: "https://www.signalm.ca",
+    },
+    {
       name: "PosePerfect",
       description:
         "PosePerfect is a real-time fitness coaching app that uses OpenCV-based pose estimation in the browser to track body landmarks and joint angles, then applies generative AI to turn pose data and screenshots into clear, actionable exercise form feedback.",

@@ -52,6 +52,7 @@ import MCYC from "./company/MCYC.png";
 import Tutorly from "./company/Tutorly.png";
 import Pose from "./Pose.png";
 import webring from "./webring.png";
+import SignalM from "./SignalM.png";
 export {
   logo,
   backend,
@@ -62,6 +63,7 @@ export {
   webring,
   FinTech,
   MCYC,
+  SignalM,
   Tutorly,
   NorthPND,
   Pose,
