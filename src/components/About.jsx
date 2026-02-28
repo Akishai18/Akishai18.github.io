@@ -82,7 +82,7 @@ const About = () => {
             I am an ambitious and dedicated Software Engineering student who shares a strong passion and proclivity towards all things 
             <span className="text-purple-400"> programming</span>, 
             <span className="text-pink-400"> engineering</span>, and 
-            <span className="text-blue-400"> business</span>.
+            <span className="text-blue-400"> finance</span>.
           </p>
         </div>
       </motion.div>
@@ -102,7 +102,7 @@ const About = () => {
               <p className="text-white/90 text-[17px] leading-[30px]">
                 I am a developer determined to innovate and push the boundaries of what's possible through technology. 
                 I firmly believe that many of the problems our world faces can be addressed through technology, and I'm 
-                driven to create impactful solutions that inspire and make a difference.
+                driven to create impactful solutions that solve complex problems and make a difference.
               </p>
             </div>
           </motion.div>

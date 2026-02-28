@@ -29,7 +29,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a young engineer and builder on an adventure to create, innovate, and push the boundaries of what's possible through technology. <br className="sm:block hidden" />
-            With a passion for learning and exploring new technologies, I'm driven to build solutions that inspire and make a difference.
+            With a passion for learning and exploring new technologies, I'm driven to build solutions that solve complex problems and make a difference.
           </p>
         </div>
 
